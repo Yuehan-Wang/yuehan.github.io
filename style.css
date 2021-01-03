@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+/* styling navigate bar */
+.navigate{
+    background-color: maroon;
+    position: absolute;
+    width: 100%;
+    padding: 15px 0;
+}
+.navigate .logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 35px;
+    color: mistyrose;
+}
+.navigate .inner-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: auto;
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navigate .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navigate .menu li a{
+    color: mintcream;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+/* styling homepage text */
+.homepage, #aboutme-text{
+    padding-top: 100px;
+    position: flex;
+    height: 100vh;
+    min-height: 500px;
+    margin: auto 0 auto 40px
+}
