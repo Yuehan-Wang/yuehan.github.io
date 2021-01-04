@@ -7,19 +7,19 @@
     text-align: center;
 }
 
-/* styling navigate bar */
 .navigate{
     background-color: maroon;
     position: absolute;
     width: 100%;
     padding: 15px 0;
+    color: cornsilk;
 }
-.navigate .logo{
+.navigate .inner-bar .logo a{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     font-weight: 500;
     font-size: 35px;
-    color: mistyrose;
+    color: white;
 }
 .navigate .inner-bar{
     display: flex;
@@ -41,12 +41,25 @@
     font-weight: 500;
     margin-left: 25px;
 }
+.navigate .menu li a:hover{ 
+    color: gold;
+}
+.navigate .menu li a:active{ 
+    text-decoration: underline;
+}
 
-/* styling homepage text */
-.homepage, #aboutme-text{
+#homepage-text, .text-content{
     padding-top: 100px;
     position: flex;
     height: 100vh;
     min-height: 500px;
-    margin: auto 0 auto 40px
+    margin: auto 0 auto 40px;
+    color: black;
+    display: flexbox;
+}
+
+.aboutme-image{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
 }
