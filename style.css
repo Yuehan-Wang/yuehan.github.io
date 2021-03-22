@@ -63,3 +63,13 @@
     height: 25px;
     display: inline-block;
 }
+.project-image{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.projects_name{
+    color:black;
+    size: 20px;
+}
