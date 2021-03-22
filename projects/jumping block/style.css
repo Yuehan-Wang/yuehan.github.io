@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#game{
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#character{
+    width: 20px;
+    height: 50px;
+    background-color: maroon;
+    position: relative; 
+    /* so we can move it. position is relative to the closest parent 
+    absolute;*/
+    top: 150px; 
+}
+
+.animate{
+    animation: jump 500ms;
+}
+
+#block{
+    width: 20px;
+    height: 20px;
+    background-color: mediumaquamarine;
+    position: relative;
+    top: 130px;
+    left: 480px;
+    animation: block 1.5s infinite linear;
+}
+
+@keyframes block{
+    0%{left : 480px;}
+    100%{left : -20px;}
+}
+
+@keyframes jump{
+    0%{top:150px;}
+    40%{top:100px;}
+    80%{top:100px;} /*stay up for a wihile*/
+    100%{top:150px;} 
+}
